@@ -1,0 +1,74 @@
+[
+  {
+    "id": "post-001",
+    "title": "欢迎来到我的个人博客",
+    "excerpt": "这是我的第一篇博客文章，介绍了这个博客系统的功能和特点。欢迎浏览和交流！",
+    "content": "<p>欢迎来到我的个人博客！这是一个基于HTML、CSS和JavaScript开发的现代化博客系统。</p><h2>博客特点</h2><ul><li>响应式设计，支持移动端</li><li>深色/浅色主题切换</li><li>文章分类和标签</li><li>搜索功能</li></ul><p>希望你能在这里找到有趣的内容，也欢迎留言交流！</p>",
+    "author": "博主",
+    "date": "2024-01-15",
+    "category": "生活",
+    "tags": ["欢迎", "介绍", "博客"],
+    "readTime": 3,
+    "image": "https://via.placeholder.com/600x400/007bff/ffffff?text=Blog+Post+1"
+  },
+  {
+    "id": "post-002",
+    "title": "JavaScript ES6+ 新特性详解",
+    "excerpt": "深入了解JavaScript ES6+的新特性，包括箭头函数、解构赋值、Promise等现代JavaScript语法。",
+    "content": "<p>JavaScript ES6+带来了许多令人兴奋的新特性，让我们的代码更加简洁和高效。</p><h2>主要特性</h2><ul><li>箭头函数</li><li>解构赋值</li><li>模板字符串</li><li>Promise和async/await</li><li>类和模块</li></ul><p>这些特性大大提升了JavaScript的开发体验。</p>",
+    "author": "博主",
+    "date": "2024-02-10",
+    "category": "技术",
+    "tags": ["JavaScript", "ES6", "前端"],
+    "readTime": 8,
+    "image": "https://via.placeholder.com/600x400/28a745/ffffff?text=Blog+Post+2"
+  },
+  {
+    "id": "post-003",
+    "title": "CSS Grid 布局完全指南",
+    "excerpt": "学习CSS Grid布局系统，掌握二维布局的强大功能，创建复杂的网页布局。",
+    "content": "<p>CSS Grid是一个强大的二维布局系统，可以轻松创建复杂的网页布局。</p><h2>Grid基础</h2><ul><li>Grid容器和Grid项目</li><li>行和列的定义</li><li>网格区域</li><li>对齐和间距</li></ul><p>Grid让布局变得更加简单和灵活。</p>",
+    "author": "博主",
+    "date": "2024-03-05",
+    "category": "技术",
+    "tags": ["CSS", "Grid", "布局"],
+    "readTime": 10,
+    "image": "https://via.placeholder.com/600x400/ffc107/ffffff?text=Blog+Post+3"
+  },
+  {
+    "id": "post-004",
+    "title": "响应式设计的最佳实践",
+    "excerpt": "探讨响应式网页设计的最佳实践，包括媒体查询、弹性布局和移动优先策略。",
+    "content": "<p>响应式设计是现代网页开发的核心技能之一。</p><h2>关键原则</h2><ul><li>移动优先</li><li>弹性布局</li><li>媒体查询</li><li>灵活的图片和媒体</li></ul><p>掌握这些原则，让你的网站在任何设备上都能完美展示。</p>",
+    "author": "博主",
+    "date": "2024-03-20",
+    "category": "技术",
+    "tags": ["响应式", "CSS", "设计"],
+    "readTime": 7,
+    "image": "https://via.placeholder.com/600x400/dc3545/ffffff?text=Blog+Post+4"
+  },
+  {
+    "id": "post-005",
+    "title": "我的编程学习之路",
+    "excerpt": "分享我从零开始学习编程的经历和心得，希望能给初学者一些启发和帮助。",
+    "content": "<p>编程学习是一个持续的过程，每个人都有自己的学习路径。</p><h2>学习建议</h2><ul><li>打好基础</li><li>多动手实践</li><li>阅读优秀代码</li><li>参与开源项目</li></ul><p>保持学习的热情，你会收获很多。</p>",
+    "author": "博主",
+    "date": "2024-04-01",
+    "category": "生活",
+    "tags": ["学习", "编程", "经验"],
+    "readTime": 5,
+    "image": "https://via.placeholder.com/600x400/17a2b8/ffffff?text=Blog+Post+5"
+  },
+  {
+    "id": "post-006",
+    "title": "Web性能优化技巧",
+    "excerpt": "介绍提升网站性能的各种技巧，包括资源压缩、懒加载、缓存策略等。",
+    "content": "<p>网站性能直接影响用户体验和SEO排名。</p><h2>优化策略</h2><ul><li>压缩资源文件</li><li>图片优化</li><li>懒加载</li><li>使用CDN</li><li>浏览器缓存</li></ul><p>性能优化是一个持续的过程，需要不断测试和改进。</p>",
+    "author": "博主",
+    "date": "2024-04-15",
+    "category": "技术",
+    "tags": ["性能", "优化", "Web"],
+    "readTime": 9,
+    "image": "https://via.placeholder.com/600x400/6f42c1/ffffff?text=Blog+Post+6"
+  }
+]

@@ -1,0 +1,201 @@
+[data-theme="dark"] {
+  --primary-color: #4dabf7;
+  --secondary-color: #adb5bd;
+  --success-color: #40c057;
+  --danger-color: #fa5252;
+  --warning-color: #fcc419;
+  --info-color: #22b8cf;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --text-color: #e9ecef;
+  --text-muted: #adb5bd;
+  --bg-color: #212529;
+  --bg-secondary: #343a40;
+  --border-color: #495057;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] header {
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .nav-links a {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .nav-links a:hover {
+  color: var(--primary-color);
+}
+
+[data-theme="dark"] .post-card {
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .post-card__title {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .post-detail__title {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .post-detail__content h2 {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .post-detail__content p {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .post-detail__content li {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .search-bar__input {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .search-bar__input:focus {
+  border-color: var(--primary-color);
+}
+
+[data-theme="dark"] .filter-button {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .filter-button:hover,
+[data-theme="dark"] .filter-button.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+[data-theme="dark"] .about-section__content {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .skill-item {
+  background-color: var(--bg-secondary);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .form-group label {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .form-group input,
+[data-theme="dark"] .form-group textarea {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .form-group input:focus,
+[data-theme="dark"] .form-group textarea:focus {
+  border-color: var(--primary-color);
+}
+
+[data-theme="dark"] .like-button {
+  background-color: var(--bg-secondary);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .like-button:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+[data-theme="dark"] .share-button {
+  background-color: var(--bg-secondary);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .share-button:hover {
+  background-color: var(--info-color);
+  color: white;
+}
+
+[data-theme="dark"] .theme-toggle {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  background-color: var(--bg-secondary);
+}
+
+[data-theme="dark"] .hamburger span {
+  background-color: var(--text-color);
+}
+
+[data-theme="dark"] .section-title {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .footer__section h3 {
+  color: white;
+}
+
+[data-theme="dark"] .footer__section a {
+  color: white;
+}
+
+[data-theme="dark"] .footer__section a:hover {
+  color: var(--primary-color);
+}
+
+[data-theme="dark"] .footer__bottom {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+[data-theme="dark"] .nav-links {
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .nav-links a {
+  border-bottom-color: var(--border-color);
+}
+
+.theme-transition {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.theme-icon {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+}
+
+.theme-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+[data-theme="dark"] .theme-icon-light {
+  display: none;
+}
+
+[data-theme="dark"] .theme-icon-dark {
+  display: inline-block;
+}
+
+.theme-icon-dark {
+  display: none;
+}
+
+.theme-icon-light {
+  display: inline-block;
+}
